@@ -8,7 +8,7 @@ a.start(0)
        
 for i in range (1,101):
             a.ChangeDutyCycle(i)
-            time.sleep(0.01)
+            time.sleep(0.05)
 for i in range (1,100):
             a.ChangeDutyCycle(100-i)
-            time.sleep(0.01)
+            time.sleep(0.05)
